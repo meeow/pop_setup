@@ -25,6 +25,12 @@ def run_many(cmds):
 
 apps = {}
 
+# Install pip
+# Python package manager
+apps['pip'] = '''sudo apt install python3-pip
+sudo apt install python-pip
+'''
+
 # Install snap
 # A package manager for linux
 apps['snap'] = 'sudo apt install snapd'
